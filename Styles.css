@@ -1,12 +1,12 @@
 
 @font-face{
     font-family: another_danger;
-    src: url("another_danger_slanted.otf");
+    src: url("font/another_danger_slanted.otf");
 }
 
 @font-face{
     font-family: junicode;
-    src: url("junicode.ttf");
+    src: url("font/junicode.ttf");
 }
 
  /*UNIVERSAL SELECTOR*/
