@@ -1,0 +1,87 @@
+
+@font-face{
+    font-family: another_danger;
+    src: url("another_danger_slanted.otf");
+}
+
+@font-face{
+    font-family: junicode;
+    src: url("junicode.ttf");
+}
+
+ /*UNIVERSAL SELECTOR*/
+ 
+body{
+    background-color:rgb(190, 190, 190);
+}
+
+/*TYPE SELECTOR*/
+
+h1{
+    font-family: another_danger;
+    color: rgb(173, 5, 5);
+    font-size: 70px;
+    text-align: center;
+    font-stretch:extra-expanded;
+    line-height: 60%;
+}
+
+ul{
+    font-family: junicode;
+   color: rgb(35, 4, 4);
+   text-align: left;
+   font-weight: 600;
+}
+ol{
+    font-family: junicode;
+    color: rgb(35, 4, 4);
+    text-align: left;
+    font-weight: 600;
+}
+
+/*CLASS SELECTOR*/
+
+.first_text{
+    font-family: junicode;
+    color: rgb(35, 4, 4);
+    font-size: 20px;
+    text-align: center;
+    line-height: 50%;
+}
+
+/*RELATION SELECTOR*/ 
+
+section#horror_genre  p{
+    color: rgb(35, 4, 4);
+    font-family: Junicode;
+    font-size: 20px;
+    text-align: left;
+    line-height: 30%;
+    font-weight: 800;
+}
+
+/*PSEUDO-CLASS AND PSEUDO-ELEMENTS*/
+
+section#ancient_horror a:link {
+    color: rgb(0, 0, 0);
+    }
+
+section#ancient_horror a:visited {
+    color: rgb(99, 12, 12);
+    }
+
+section#ancient_horror a:hover {
+font-size: 150%;
+color: rgb(215, 24, 24);
+}
+
+/*COMBINATION */
+
+h2,h3{
+    color: rgb(173, 5, 5);
+    font-family: Junicode;
+    font-size: 40px;
+    text-align: left;
+    line-height: 30%;
+     font-weight: 800;
+}
