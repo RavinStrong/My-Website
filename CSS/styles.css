@@ -1,12 +1,12 @@
 
 @font-face{
     font-family: another_danger;
-    src: url("font/another_danger_slanted.otf");
+    src: url("../font/another_danger_slanted.otf");
 }
 
 @font-face{
     font-family: junicode;
-    src: url("font/junicode.ttf");
+    src: url("../font/junicode.ttf");
 }
 
  /*UNIVERSAL SELECTOR*/
@@ -25,14 +25,18 @@ body{
     text-align:center;
     font-stretch:extra-expanded;
     line-height: 60%;
-   background:  url("images/grayforest.jpg") top;
+   background: url("../images/grayforest.jpg") top;
    border: 1em, 3em, 3em, 0em;
    background-repeat: no-repeat;
    background-size:cover;
    width: 100%;
+   text-size-adjust: 41;
    padding-bottom: 5%;
    padding-top: 5%;
    margin-top: 0%;
+}
+#header_container img{
+    width:100% ;
 }
 #genre_page_body{
     background-color: rgb(238, 233, 225);
@@ -46,8 +50,6 @@ ul{
    font-weight: 600;
    padding-top: 2em;
    padding-bottom: 2em;
-}
-ol{
     font-family: junicode;
     color: rgb(35, 4, 4);
     text-align: left;
@@ -61,6 +63,7 @@ article{
     column-count: 3;
     column-gap: 35px;
     column-rule: 2px solid black;
+    column-width: 100%;
     background-color: rgb(238, 233, 225);
 }
 
@@ -82,7 +85,7 @@ section#horror_genre  {
     font-size: 20px;
 
     text-align: left;
-    width: 720px;
+    width: 40%;
     float: left;
     line-height: 40%;
     font-weight: 800;
@@ -122,6 +125,10 @@ section#horror_genre a{
     line-height: 30%;
     font-weight: 800;   
     margin-bottom: 1em;
+    width: max-content;
+}
+#horror_genre p{
+width: max-content;
 }
 
 /*COMBINATION */
@@ -146,6 +153,8 @@ font-weight: 800;
     font-size: 40px;
     text-align: center;
     display: inline;
+    padding: 0%;
+    width: 100%
 }
 
 #nav_list a:link{
@@ -171,6 +180,92 @@ font-weight: 800;
     font-weight: bold;
     text-align: center;
 }
+#home_nav{
+    padding-left: 10%;
+}
+#cinema_nav{
+    padding-right: 10%;
+    border:  10%;
+    float:right
+    
+}
+#ancient_nav{
+    padding-left: 100px;
+    padding-right: 0%;
+  float: left;
+    border: 10%;
+}
+#lit_nav{
+    padding-left: 100px;
+    padding-right: 0%;
+  float: left;
+    border: 10%;
+    
+}
+/*FLUID LAYOUT AND IMAGE*/
+#first_horror_movie{
+    max-width: 100%;
+    margin-top: 3em;
+    float:left
+}
 
+body{
+    width: 90%;
+    max-width: 100%;
+}
+header{
+    width: 96.87%;
+    padding: 15px 1.5625%;
+}
 
+footer{
+    width: 96.875%;
+    padding: 15px 1.5625%;
+}
+br{
+    clear: both;
+}
+@media only screen and (max-width: 630px){
 
+#nav_list{
+    float: none;
+    width: 100%;
+    padding: 0%;
+    border: 2em;
+    padding-bottom: 1%;
+}
+#home_nav{
+    padding-left: 0%;
+}
+#cinema_nav{
+    padding-right: 30%;
+    border:  0%;
+    float: none;
+    padding-bottom: 10%;
+    
+}
+#ancient_nav{
+    padding-left: 0px;
+    padding-right: 0%;
+  float: none;
+    border: 0%;
+}
+#lit_nav{
+    padding-left: 0px;
+    padding-right: 0%;
+  float: none
+   border 0;
+    
+}
+#header_container{
+    font-size: 20px;
+}
+#header_containerh2{
+
+font-size: 10px;
+}
+#horror_genre a{
+    font-size: 13px;
+}
+
+}
