@@ -23,20 +23,26 @@ body{
     color: rgb(122, 5, 5);
     font-size: 60px;
     text-align:center;
-    font-stretch:extra-expanded;
+    font-stretch: extra-expanded;
     line-height: 60%;
-   background: url("../images/grayforest.jpg") top;
-   border: 1em, 3em, 3em, 0em;
+   background: url("../images/grayforest.jpg") left;
+   border: 1em, 0em, 0em, 0em;
    background-repeat: no-repeat;
-   background-size:cover;
-   width: 100%;
-   text-size-adjust: 41;
+   background-size: 100%;
+
    padding-bottom: 5%;
-   padding-top: 5%;
+   padding-top: 0%;
    margin-top: 0%;
+  
+   
 }
-#header_container img{
-    width:100% ;
+
+#header_container{
+    display: flex;
+    flex-direction:column;
+}
+#header_container {
+    background: 100;
 }
 #genre_page_body{
     background-color: rgb(238, 233, 225);
@@ -69,10 +75,10 @@ article{
 
 /*CLASS SELECTOR*/
 
-.first_text{
+#first_text{
     font-family: junicode;
     color: rgb(122, 5, 5);
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     line-height: 50%;
 }
@@ -202,6 +208,9 @@ font-weight: 800;
     border: 10%;
     
 }
+#mobile_menu{
+    display: none;
+}
 /*FLUID LAYOUT AND IMAGE*/
 #first_horror_movie{
     max-width: 100%;
@@ -225,47 +234,48 @@ footer{
 br{
     clear: both;
 }
-@media only screen and (max-width: 630px){
 
+
+@media only screen and (max-width: 1200px){
+     #header{
+        font-size: 50px;
+    }
+    #header_container h2{
+
+        font-size: 20px;
+        text-align: center;
+        }
+        #nav_list{
+            display: none;
+        }
+        #mobilr_menu{
+            display: block;
+        }
+        .slick_menu{
+            background-color:#800 !important;
+        }
+}
+
+@media only screen and (max-width: 630px){
 #nav_list{
-    float: none;
-    width: 100%;
-    padding: 0%;
-    border: 2em;
-    padding-bottom: 1%;
+    display: none;
 }
-#home_nav{
-    padding-left: 0%;
+
+#header{
+    font-size: 30px;
 }
-#cinema_nav{
-    padding-right: 30%;
-    border:  0%;
-    float: none;
-    padding-bottom: 10%;
-    
-}
-#ancient_nav{
-    padding-left: 0px;
-    padding-right: 0%;
-  float: none;
-    border: 0%;
-}
-#lit_nav{
-    padding-left: 0px;
-    padding-right: 0%;
-  float: none
-   border 0;
-    
-}
-#header_container{
-    font-size: 20px;
-}
-#header_containerh2{
+#header_container h2{
 
 font-size: 10px;
 }
 #horror_genre a{
     font-size: 13px;
 }
-
+#mobilr_menu{
+    display: block;
 }
+.slick_menu{
+    background-color:#800 !important;
+}
+}
+
