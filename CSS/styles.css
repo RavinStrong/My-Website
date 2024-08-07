@@ -1,158 +1,23 @@
-
-@font-face{
+/* IMPORTED FONTS*/
+@font-face {
     font-family: another_danger;
     src: url("../font/another_danger_slanted.otf");
 }
 
-@font-face{
+@font-face {
     font-family: junicode;
     src: url("../font/junicode.ttf");
 }
 
- /*UNIVERSAL SELECTOR*/
- 
-body{
-    background-color:rgb(109, 108, 108);
-    
+
+/* UNIVERSAL AFFECTS EVERY PAGE */
+body {
+    background-color: rgb(109, 108, 108);
 }
 
-/*TYPE SELECTOR*/
-
-#header_container{
-    font-family: another_danger;
-    color: rgb(122, 5, 5);
-    font-size: 60px;
-    text-align:center;
-    font-stretch: extra-expanded;
-    line-height: 60%;
-   background: url("../images/grayforest.jpg") left;
-   border: 1em, 0em, 0em, 0em;
-   background-repeat: no-repeat;
-   background-size: 100%;
-
-   padding-bottom: 5%;
-   padding-top: 0%;
-   margin-top: 0%;
-  
-   
-}
-
-#header_container{
-    display: flex;
-    flex-direction:column;
-}
-#header_container {
-    background: 100;
-}
-#genre_page_body{
-    background-color: rgb(238, 233, 225);
-    color: black;
-}
-
-ul{
-    font-family: junicode;
-   color: rgb(35, 4, 4);
-   text-align: left;
-   font-weight: 600;
-   padding-top: 2em;
-   padding-bottom: 2em;
-    font-family: junicode;
-    color: rgb(35, 4, 4);
-    text-align: left;
-    font-weight: 600;
-    padding: 2em;
-}
-footer{
-    clear: both;
-}
-article{
-    column-count: 3;
-    column-gap: 35px;
-    column-rule: 2px solid black;
-    column-width: 100%;
-    background-color: rgb(238, 233, 225);
-}
-
-/*CLASS SELECTOR*/
-
-#first_text{
-    font-family: junicode;
-    color: rgb(122, 5, 5);
-    font-size: 30px;
-    text-align: center;
-    line-height: 50%;
-}
-
-/*RELATION SELECTOR*/ 
-
-section#horror_genre  {
-    color: rgb(35, 4, 4);
-    font-family: Junicode;
-    font-size: 20px;
-
-    text-align: left;
-    width: 40%;
-    float: left;
-    line-height: 40%;
-    font-weight: 800;
-    border:ridge;
-    border-width: 1%;
-    border-color: rgb(35, 7, 7);
-    margin-top: 5%;
-    margin-bottom: 10%;
-    
-
-}
-/* section#ancient_horror{ 
-    width: 720px;
-    float: right;
-    border:ridge;
-    border-width: 1%;
-    margin-top: 0em;
-    border-color: rgb(35, 7, 7);
-}*/ 
-
-/*PSEUDO-CLASS AND PSEUDO-ELEMENTS*/
-
-/*section#ancient_horror a:link {
-    color: rgb(0, 0, 0);
-    }*/
-
-section#ancient_horror a:visited {
-    color: rgb(99, 12, 12);
-    }
-
-section#horror_genre a{
-    text-decoration: none;
-    color: rgb(122, 5, 5);
-    font-family: Junicode;
-    font-size: 40px;
-    text-align: left;
-    line-height: 30%;
-    font-weight: 800;   
-    margin-bottom: 1em;
-    width: max-content;
-}
-#horror_genre p{
-width: max-content;
-}
-
-/*COMBINATION */
-
-h2,h3{
-    color: rgb(122, 5, 5);
-    font-family: Junicode;
-    font-size: 40px;
-    text-align: left;
-    line-height: 30%;
-font-weight: 800;
-    margin-top: 5%;
-}
-
-/*NAVIGATION LIST*/
-#nav_list {
+#nav_list ul {
     list-style-type: none;
-    overflow:hidden;
+    overflow: hidden;
     padding: 1em 0;
     background-color: rgb(122, 5, 5);
     font-family: Junicode;
@@ -163,119 +28,455 @@ font-weight: 800;
     width: 100%
 }
 
-#nav_list a:link{
+#nav_list a:link {
     font-weight: bold;
     font-size: 25px;
-    color:   rgb(122, 5, 5);
+    color: rgb(122, 5, 5);
     text-decoration: none;
     text-align: center;
 }
 
-#nav_list a:visited{
+#nav_list a:visited {
     font-weight: bold;
     font-size: 25px;
-    color:  rgb(122, 5, 5);
+    color: rgb(122, 5, 5);
     text-decoration: none;
     text-align: center;
 }
 
-#nav_list a{
+#nav_list a {
     float: left;
     display: block;
     padding: .5em 0 .5em 1.5em;
     font-weight: bold;
     text-align: center;
 }
-#home_nav{
-    padding-left: 10%;
-}
-#cinema_nav{
-    padding-right: 10%;
-    border:  10%;
-    float:right
-    
-}
-#ancient_nav{
-    padding-left: 100px;
-    padding-right: 0%;
-  float: left;
-    border: 10%;
-}
-#lit_nav{
-    padding-left: 100px;
-    padding-right: 0%;
-  float: left;
-    border: 10%;
-    
-}
-#mobile_menu{
-    display: none;
-}
-/*FLUID LAYOUT AND IMAGE*/
-#first_horror_movie{
-    max-width: 100%;
-    margin-top: 3em;
-    float:left
+
+h2,
+h3 {
+    color: rgb(122, 5, 5);
+    font-family: Junicode;
+    font-size: 40px;
+    text-align: left;
+    line-height: 30%;
+    font-weight: 800;
+    margin-top: 5%;
 }
 
-body{
+body {
     width: 90%;
     max-width: 100%;
 }
-header{
+
+header {
     width: 96.87%;
     padding: 15px 1.5625%;
 }
 
-footer{
+footer {
     width: 96.875%;
     padding: 15px 1.5625%;
 }
-br{
+
+br {
     clear: both;
 }
 
+#mobile_menu {
+    display: none;
+}
 
-@media only screen and (max-width: 1200px){
-     #header{
+footer {
+    clear: both;
+}
+
+#nav_list ul {
+    list-style: none;
+
+}
+
+#nav_list ol {
+    list-style: none;
+}
+
+/* FLEX BOX 1 NAV LIST*/
+#nav_list ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: rgb(109, 108, 108);
+}
+#nav_list ol{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: rgb(109, 108, 108);
+}
+#nav_list li{
+    background-color:  rgb(109, 108, 108);
+    padding: 10px;
+    text-align: center;
+
+}
+#nav_list a{
+    text-decoration: none;
+    color: rgb(122, 5, 5);
+    font-size: 30px;
+    font-family: junicode;
+     font-weight: 800;
+}
+
+/* HOME PAGE */
+#header_container {
+    font-family: another_danger;
+    color: rgb(122, 5, 5);
+    font-size: 60px;
+    text-align: center;
+    font-stretch: extra-expanded;
+    line-height: 60%;
+    background: url("../images/grayforest.jpg") left;
+    border: 1em, 0em, 0em, 0em;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    padding-bottom: 5%;
+    padding-top: 0%;
+    margin-top: 0%;
+
+
+}
+
+#header_container {
+    display: flex;
+    flex-direction: column;
+}
+
+#header_container {
+    background: 100;
+}
+
+#first_text {
+    font-family: junicode;
+    color: rgb(122, 5, 5);
+    font-size: 30px;
+    text-align: center;
+    line-height: 50%;
+}
+
+section#horror_genre a {
+    text-decoration: none;
+    color: rgb(122, 5, 5);
+    font-family: Junicode;
+    font-size: 40px;
+    text-align: left;
+    line-height: 30%;
+    font-weight: 800;
+    margin-bottom: 1em;
+    width: max-content;
+}
+
+#home_nav {
+    padding-left: 10%;
+}
+
+
+
+/*HORROR GENRE PAGE   AND FLEX BOX 2 WHOLE PAGE*/
+
+#genre_page_body {
+    background-color: rgb(238, 233, 225);
+    color: black;
+}
+
+
+article {
+    column-count: 3;
+    column-gap: 35px;
+    column-rule: 2px solid black;
+    column-width: 100%;
+    background-color: rgb(238, 233, 225);
+}
+
+section#horror_genre {
+    color: rgb(35, 4, 4);
+    font-family: Junicode;
+    font-size: 20px;
+
+    text-align: left;
+    width: 40%;
+    float: left;
+    line-height: 40%;
+    font-weight: 800;
+    border: ridge;
+    border-width: 1%;
+    border-color: rgb(35, 7, 7);
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+
+#horror_genre p {
+    width: max-content;
+}
+#genre_pagebody{
+    display: flex;
+    flex-direction: column;
+    }
+
+    #genre_sidebar{
+        min-height: 600px;
+    }
+#genre_footer{
+    flex-basis: 40%;
+    max-height: 100px;
+    min-height: 100px;
+}
+
+
+/*ANCIENT HORROR PAGE*/
+
+
+
+#ancient_nav {
+    padding-left: 100px;
+    padding-right: 0%;
+    float: left;
+    border: 10%;
+}
+#ancient_body h1 {
+    font-family: another_danger;
+    color: rgb(122, 5, 5);
+    font-size: 80px;
+    text-align: center;
+    font-stretch: extra-expanded;
+    line-height: 60%;
+}
+
+#ancient_body p {
+    color: rgb(35, 4, 4);
+    font-family: Junicode;
+    font-size: 20px;
+    font-style: bold;
+    font-weight: 800;
+}
+
+
+/* LIT HORROR PAGE*/
+#lit_nav {
+    padding-left: 100px;
+    padding-right: 0%;
+    float: left;
+    border: 10%;
+
+}
+
+#lit_body h1 {
+    font-family: another_danger;
+    color: rgb(122, 5, 5);
+    font-size: 80px;
+    text-align: center;
+    font-stretch: extra-expanded;
+    line-height: 60%;
+}
+
+#lit_body p {
+    color: rgb(35, 4, 4);
+    font-family: Junicode;
+    font-size: 20px;
+    font-style: bold;
+    font-weight: 800;
+}
+
+
+/* CINEMA PAGE LAYOUT  GRID LAYOUT */
+
+#cinema_nav {
+    padding-right: 10%;
+    border: 10%;
+    float: right
+}
+
+#cinema_header h1 {
+    width: 100%;
+    font-family: another_danger;
+    text-align: center;
+    font-size: 80px;
+    color: rgb(122, 5, 5);
+}
+
+#cinema_body {
+    display: grid;
+    width: 100%;
+    height: 90px;
+    grid-template: 300px 300px 300px / 400px 1000px;
+    grid-gap: 20px;
+}
+
+#cinema_body p {
+    font-size: larger;
+    ;
+}
+
+
+#hellraiser_photo {
+
+    background-color: #800;
+
+
+}
+
+#other_movie_photo {
+    background: url("../images/thehouseofthedead.jpg") left;
+
+}
+
+#last_movie_photo {
+    background-color: rgb(139, 0, 127);
+}
+
+
+
+
+
+/* MEDIA QUERY*/
+
+
+@media only screen and (max-width: 1200px) {
+    #header {
         font-size: 50px;
     }
-    #header_container h2{
+
+    #header_container h2 {
 
         font-size: 20px;
         text-align: center;
-        }
-        #nav_list{
+    }
+
+    /* #nav_list ul{
             display: none;
         }
-        #mobilr_menu{
+        #mobile_menu{
             display: block;
         }
         .slick_menu{
             background-color:#800 !important;
-        }
+        } */
+
+    #cinema_body {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #lit_body h2 {
+        line-height: 80%;
+        font-size: 30px;
+        align-content: center;
+        word-break: break-all;
+
+    }
+    #nav_list ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        list-style-type: none;
+        background-color: rgb(109, 108, 108);
+    }
+    #nav_list ol{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        list-style-type: none;
+        background-color: rgb(109, 108, 108);
+    }
+    #nav_list li{
+        background-color:  rgb(109, 108, 108);
+        padding: 10px;
+        text-align: center;
+    
+    }
+    #nav_list a{
+        text-decoration: none;
+        color: rgb(122, 5, 5);
+        font-size: 20px;
+        font-family: junicode;
+         font-weight: 800;
+    }
+    #genre_page_body h2{
+        font-size:20px;
+        line-height: 70%;
+    }
 }
 
-@media only screen and (max-width: 630px){
-#nav_list{
+@media only screen and (max-width: 630px) {
+
+
+    #header {
+        font-size: 30px;
+    }
+
+    #header_container h2 {
+
+        font-size: 10px;
+    }
+
+    #horror_genre a {
+        font-size: 13px;
+    }
+
+    /*#nav_lis ul{ 
     display: none;
-}
-
-#header{
-    font-size: 30px;
-}
-#header_container h2{
-
-font-size: 10px;
-}
-#horror_genre a{
-    font-size: 13px;
 }
 #mobilr_menu{
     display: block;
 }
 .slick_menu{
     background-color:#800 !important;
-}
-}
+} */
+    #cinema_body {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 
+    #para_1para_2para_3 {
+        font-size: small;
+    }
+
+    #lit_body h2 {
+        line-height: 80%;
+        font-size: 30px;
+        align-content: center;
+        word-break: break-all;
+
+    }
+    #nav_list ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        list-style-type: none;
+        background-color: rgb(109, 108, 108);
+    }
+    #nav_list ol{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        list-style-type: none;
+        background-color: rgb(109, 108, 108);
+    }
+    #nav_list li{
+        background-color:  rgb(109, 108, 108);
+        padding: 10px;
+        text-align: center;
+    
+    }
+    #nav_list a{
+        text-decoration: none;
+        color: rgb(122, 5, 5);
+        font-size: 20px;
+        font-family: junicode;
+         font-weight: 800;
+    }
+    #genre_page_body h2{
+        font-size:20px;
+        line-height: 70%;
+    }
+}

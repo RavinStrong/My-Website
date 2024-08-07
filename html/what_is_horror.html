@@ -6,53 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The complete history of the horror genre in literature, history and cinema/film.">
     <title>History of Horror</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css" />
+
     <link rel="stylesheet" href="../CSS/styles.css">
+    <script src=" https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#mobile_menu').slicknav({ prepareTo: "#mobile_menu" });
+        });
+    </script>
 </head>
 
 <body id="genre_page_body">
+    <header id="genre_header">
     <h1>
         What Is Horror?
     </h1>
 
-<!--  <header>
+    <!--  <header>
       <img class="image" src="images/titlephoto.jpg" alt="Picture of creepy forrest" >
   </header>-->
- <nav id="nav_list">
-  <li id="home_nav"><a href="../index.html">Home</a></li>
-  <li id="ancient_nav"><a href="../html/ancient_horror.html">Ancient Horror</a></li>
-  <li id="lit_nav"><a href="../html/horror_inliterature.html">Literary Horror</a></li>
-  <li id="cinema_nav"><a href="../html/horror_in_cinema.html">Horror In Cinema</a></li>
- </nav>
- <br>
-   <article>
-    <h2>Definition of horrorr</h2>
-    <p>Horror is actually quite a broad genre. the main definition is it has to be a piece of fiction that shocks or even frightens the viewer, often conjuring up feelings of  repulsion, shock or... horror.
-        Horror encapsulated many sub-genres including but not limited to, thriller, psychological, gothic, slasher, supernatural and even comedic horror. 
-    </p>
-    <h2>Horror misconceptions</h2>
-    <p>
-        One common misconception of horror is that it is similar or akin to true crime. True crime is a soecific genre that is based of real events telling the stories of real victims and real perpetrators.
-        While some horror has been loosly inspired by true events, horror is explicitly fictitious. When it comes to true crime there is often ethical concerns about exploiting victims and their families or even 
-        idiolizing relal criminals. In horror this is not the case even when fans seem to "idiolize" a villian it s a fictitious character who caused no real harm.
-    </p>
-    <p>
-    Another popular misconception is all horror has to be gory. While yes gore  will alwasy be connected to the genre of horror. It is easy to make a book,movie or any othe piece of horror media without 
-    gore. I WILL CONTINUE EXPLAINING FURTHER BUT I NEED FILLER TO DEMONSTRATE THE COLUMNSS
-    </p>
-    <p>
-        Ad consequat nullam, tempor placerat inceptos euismod. Vulputate magna taciti vestibulum consectetur morbi
-        iaculis ac. Egestas rhoncus convallis cubilia magnis urna feugiat. Ante felis potenti consequat nullam tristique
-        donec. Suspendisse nascetur congue placerat tellus mattis lacinia arcu. Lacus tristique vestibulum platea
-        venenatis massa.
-    </p>
-    <p>
-        Aliquam laoreet odio nisl diam pellentesque dolor. Aenean praesent arcu, blandit magna odio cras. Turpis etiam
-        nascetur feugiat imperdiet tempor. Aenean facilisis pulvinar molestie metus pellentesque taciti eros sem.
-        Sociosqu placerat fringilla tristique quisque velit hendrerit senectus inceptos. Litora id non integer neque
-        vehicula sodales posuere. Penatibus class eros sagittis congue varius rhoncus. Duis ornare feugiat tellus curae
-        parturient porta erat rutrum nostra? Hac aliquet efficitur aliquet, nunc ad mi.
-    </p>
-</article>
-</body>
 
+    <!--<nav id="mobile_menu"> </nav> WILL NOT DISPLAY MENUE WITH CONTENETS IN DROP DOWN UNLESS I RELIST THEM -->
+    <nav id="nav_list">
+        <ol>
+            <li id="home_nav"><a href="../index.html">Home</a></li>
+            <li id="ancient_nav"><a href="../html/ancient_horror.html">Ancient Horror</a></li>
+            <li id="lit_nav"><a href="../html/horror_inliterature.html">Literary Horror</a></li>
+            <li id="cinema_nav"><a href="../html/horror_in_cinema.html">Horror In Cinema</a></li>
+        </ol>
+    </nav>
+</header>
+    <br>
+    <aside id="genre_sidebar">
+    <article>
+        <h2>Definition of horrorr</h2>
+        <p>Horror is actually quite a broad genre. the main definition is it has to be a piece of fiction that shocks or
+            even frightens the viewer, often conjuring up feelings of repulsion, shock or... horror.
+            Horror encapsulated many sub-genres including but not limited to, thriller, psychological, gothic, slasher,
+            supernatural and even comedic horror.
+        </p>
+        <h2>Horror misconceptions</h2>
+        <p>
+            One common misconception of horror is that it is similar or akin to true crime. True crime is a soecific
+            genre that is based of real events telling the stories of real victims and real perpetrators.
+            While some horror has been loosly inspired by true events, horror is explicitly fictitious. When it comes to
+            true crime there is often ethical concerns about exploiting victims and their families or even
+            idiolizing relal criminals. In horror this is not the case even when fans seem to "idiolize" a villian it s
+            a fictitious character who caused no real harm.
+        </p>
+        <p>
+            Another popular misconception is all horror has to be gory. While yes gore will alwasy be connected to the
+            genre of horror. It is easy to make a book,movie or any othe piece of horror media without
+            gore. I WILL CONTINUE EXPLAINING FURTHER BUT I NEED FILLER TO DEMONSTRATE THE COLUMNSS
+        </p>
+        <p>
+            Ad consequat nullam, tempor placerat inceptos euismod. Vulputate magna taciti vestibulum consectetur morbi
+            iaculis ac. Egestas rhoncus convallis cubilia magnis urna feugiat. Ante felis potenti consequat nullam
+            tristique
+            donec. Suspendisse nascetur congue placerat tellus mattis lacinia arcu. Lacus tristique vestibulum platea
+            venenatis massa.
+        </p>
+        <p>
+            Aliquam laoreet odio nisl diam pellentesque dolor. Aenean praesent arcu, blandit magna odio cras. Turpis
+            etiam
+            nascetur feugiat imperdiet tempor. Aenean facilisis pulvinar molestie metus pellentesque taciti eros sem.
+            Sociosqu placerat fringilla tristique quisque velit hendrerit senectus inceptos. Litora id non integer neque
+            vehicula sodales posuere. Penatibus class eros sagittis congue varius rhoncus. Duis ornare feugiat tellus
+            curae
+            parturient porta erat rutrum nostra? Hac aliquet efficitur aliquet, nunc ad mi.
+        </p>
+    </article>
+   </aside>
+</body>
+<footer ide="genre_footer">
+THIS IS TH EFOOTER
+</footer>
 </html>
