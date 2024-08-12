@@ -162,17 +162,18 @@ footer {
     text-align: center;
     line-height: 50%;
 }
-
-section#horror_genre a {
-    text-decoration: none;
-    color: rgb(122, 5, 5);
-    font-family: Junicode;
+#horror_genre h2{
+    text-align: center;
     font-size: 40px;
-    text-align: left;
-    line-height: 30%;
+}
+#horror_genre p{
+    color: rgb(35, 4, 4);
+    font-family: Junicode;
+    font-size: 20px;
+    font-style: bold;
     font-weight: 800;
-    margin-bottom: 1em;
-    width: max-content;
+    text-align: center;
+
 }
 
 #home_nav {
@@ -180,87 +181,140 @@ section#horror_genre a {
 }
 
 
+#genre_block{
+    display: grid;
+   grid-gap: 20px;
+    grid-template-areas:
+   
+    'shi shi shr shr'
+    'shi shi shr shr'
+    'shi shi shr shr'
+    'shi shi shr shr'
+    'shi shi shr shr'
+     'shi shi shr shr'
+    'shi shi shr shr'
+    'shi shi shr shr'
+    'shi shi shr shr'
+    'shi shi shr shr'
+    'shi shi shr shr'
+    'shi shi shr shr'
+    'shi shi shr shr'
+    'shi shi shr shr'
+    'shi shi shr shr'
+    'shi shi shr shr'
+    'shi shi shr shr'
+    'shi shi shr shr'
+    'shi shi shr shr'
+    'shi shi shr shr'
+    'shi shi shr shr'
+    'psc psc psi psi'
+    'psc psc psi psi'
+    'psc psc psi psi'
+   'psc psc psi psi'
+   'psc psc psi psi'
+   'psc psc psi psi'
+  'psc psc psi psi'
+  'psc psc psi psi'
+ 'psc psc psi psi'
+ 'psc psc psi psi'
+ 'psc psc psi psi'
+ 'psc psc psi psi'
+ 'psc psc psi psi'
+ 'psc psc psi psi'
+ 'psc psc psi psi'
+ 'psc psc psi psi'
+ 'psc psc psi psi'
+ 'psc psc psi psi'
+    'sui sui sup sup'
+    'sui sui sup sup'
+    'sui sui sup sup'
+     'sui sui sup sup'
+     'sui sui sup sup'
+     'sui sui sup sup'
+     'sui sui sup sup'
+     'sui sui sup sup'
+     'sui sui sup sup'
+     'sui sui sup sup'
+     'sui sui sup sup'
+     'sui sui sup sup'
+     'sui sui sup sup'
+     'sui sui sup sup'
+     'sui sui sup sup'
+     'sui sui sup sup'
+     'sui sui sup sup'
+     'sui sui sup sup'
+     'sui sui sup sup'    
+      'sui sui sup sup'
+     'sui sui sup sup'
+     'sui sui sup sup'
+     'bod bod boi boi'
+     'bod  bod boi boi'
+     'bod bod boi boi'
+     'bod bod boi boi'
+      'bod bod boi boi'
+     'bod bod boi boi'
+     'bod bod boi boi'
+     'bod  bod boi boi'
+     'bod bod boi boi'
+     'bod bod boi boi'
+      'bod bod boi boi'
+     'bod bod boi boi'
+     'bod bod boi boi'
+     'bod bod boi boi'
+      'bod bod boi boi'
+     'bod bod boi boi'
+     'bod bod boi boi'
+      'bod  bod boi boi'
+     'bod bod boi boi'
+     'bod bod boi boi'
+      'bod bod boi boi'
+     'bod bod boi boi'
+    ;
 
-/*HORROR GENRE PAGE   AND FLEX BOX 2 WHOLE PAGE*/
 
-#genre_page_body {
-    background-color: rgb(238, 233, 225);
-    color: black;
 }
 
-
-article {
-    column-count: 3;
-    column-gap: 35px;
-    column-rule: 2px solid black;
-    column-width: 100%;
-    background-color: rgb(238, 233, 225);
-}
-
-section#horror_genre {
-    color: rgb(35, 4, 4);
-    font-family: Junicode;
-    font-size: 20px;
-
-    text-align: left;
-    width: 40%;
-    float: left;
-    line-height: 40%;
-    font-weight: 800;
-    border: ridge;
-    border-width: 1%;
-    border-color: rgb(35, 7, 7);
-    margin-top: 5%;
-    margin-bottom: 10%;
-}
-
-
-#horror_genre p {
-    width: max-content;
-}
-#genre_pagebody{
-    display: flex;
-    flex-direction: column;
-    }
-
-    #genre_sidebar{
-        min-height: 600px;
-    }
-#genre_footer{
-    flex-basis: 40%;
-    max-height: 100px;
-    min-height: 100px;
-}
-
-
-/*ANCIENT HORROR PAGE*/
-
-
-
-#ancient_nav {
-    padding-left: 100px;
-    padding-right: 0%;
-    float: left;
-    border: 10%;
-}
-#ancient_body h1 {
-    font-family: another_danger;
-    color: rgb(122, 5, 5);
-    font-size: 80px;
-    text-align: center;
-    font-stretch: extra-expanded;
-    line-height: 60%;
-}
-
-#ancient_body p {
+#genre_block p{
     color: rgb(35, 4, 4);
     font-family: Junicode;
     font-size: 20px;
     font-style: bold;
     font-weight: 800;
+   
+}
+#slasher_photo{
+   grid-area: shr;
+    background: url("../images/slasheer\ \(1\).webp") left;
+    background-repeat: no-repeat;
+}
+#slasher_info{
+grid-area: shi;
 }
 
-
+#psychological_photo{
+   grid-area: psc;
+    background: url("../images/get_out.jpg") left;
+    background-repeat: no-repeat;
+}
+#psychological_info{
+    grid-area: psi;
+}
+#supernatural_photo{
+    grid-area: sup;
+    background: url("../images/it\ \(2\).webp") left;
+    background-repeat: no-repeat;
+}
+#supernatural_info{
+    grid-area: sui;
+}
+#body_photo{
+    grid-area: bod;
+    background: url("../images/pinhead_hellraiser\ \(1\).webp") left;
+    background-repeat: no-repeat;
+}
+#body_info{
+    grid-area: boi;
+}
 /* LIT HORROR PAGE*/
 #lit_nav {
     padding-left: 100px;
@@ -286,6 +340,41 @@ section#horror_genre {
     font-style: bold;
     font-weight: 800;
 }
+
+#lit_content {
+    display: grid;
+    width: 100%;
+    height: 90px;
+    grid-template: 300px 300px 300px / 400px 1000px;
+    grid-gap: 20px;
+    
+}
+br{
+    display: none;
+}
+#lit_content p {
+    font-size: larger;
+    ;
+}
+
+
+#frankenstein_photo {
+
+    background: url("../images/frankenstein.jpg") left;
+background-repeat: no-repeat;
+
+}
+
+#usher_photo {
+    background: url("../images/edgar.jpg") left;
+background-repeat: no-repeat;
+}
+
+#shinning_photo {
+    background: url("../images/shinning.jpg") left;
+    background-repeat: no-repeat;
+}
+
 
 
 /* CINEMA PAGE LAYOUT  GRID LAYOUT */
@@ -313,26 +402,39 @@ section#horror_genre {
 }
 
 #cinema_body p {
-    font-size: larger;
-    ;
+    color: rgb(35, 4, 4);
+    font-family: Junicode;
+    font-size: 20px;
+    line-height: 100%;
+    font-weight: 800;
+}
+#intro_cinema{
+    color: rgb(35, 4, 4);
+    font-family: Junicode;
+    font-size: 20px;
+    line-height: 100%;
+    font-weight: 800;
+    text-align: center;
 }
 
 
-#hellraiser_photo {
+#halloween_photo {
 
-    background-color: #800;
-
-
-}
-
-#other_movie_photo {
-    background: url("../images/thehouseofthedead.jpg") left;
+    background: url("../images/michael_meyers\ \(3\).webp") left;
+background-repeat: no-repeat;
 
 }
 
-#last_movie_photo {
-    background-color: rgb(139, 0, 127);
+#psycho {
+    background: url("../images/psycho.jpg") left;
+background-repeat: no-repeat;
 }
+
+#night_of_the_licing_dead {
+    background: url("../images/night_living_dead.jpg") left;
+    background-repeat: no-repeat;
+}
+
 
 
 
@@ -365,14 +467,26 @@ section#horror_genre {
     #cinema_body {
         display: grid;
         grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+      #genre_block {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: 90px;
+        grid-gap: 20px;
     }
 
+    #lit_content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
     #lit_body h2 {
         line-height: 80%;
         font-size: 30px;
         align-content: center;
         word-break: break-all;
-
+    
     }
     #nav_list ul{
         display: flex;
@@ -404,6 +518,9 @@ section#horror_genre {
     #genre_page_body h2{
         font-size:20px;
         line-height: 70%;
+    }
+    br{
+        display: block;
     }
 }
 
@@ -435,19 +552,33 @@ section#horror_genre {
     #cinema_body {
         display: grid;
         grid-template-columns: 1fr;
+        grid-gap:20px;
     }
+    #genre_block {
+        display: grid;
+        grid-template-areas: none;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: 90px;
+        grid-gap: 20px;
+    }
+
 
     #para_1para_2para_3 {
         font-size: small;
     }
-
+    #lit_content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
     #lit_body h2 {
         line-height: 80%;
         font-size: 30px;
         align-content: center;
         word-break: break-all;
-
+    
     }
+
     #nav_list ul{
         display: flex;
         flex-direction: column;
@@ -468,6 +599,9 @@ section#horror_genre {
         text-align: center;
     
     }
+    br{
+        display: block;
+    }
     #nav_list a{
         text-decoration: none;
         color: rgb(122, 5, 5);
@@ -480,3 +614,4 @@ section#horror_genre {
         line-height: 70%;
     }
 }
+
