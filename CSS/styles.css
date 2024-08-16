@@ -12,7 +12,7 @@
 
 /* UNIVERSAL AFFECTS EVERY PAGE */
 body {
-    background-color: rgb(109, 108, 108);
+    background-color: rgb(179, 169, 169);
 }
 
 #nav_list ul {
@@ -104,16 +104,16 @@ footer {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    background-color: rgb(109, 108, 108);
+    background-color:rgb(179, 169, 169);
 }
 #nav_list ol{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    background-color: rgb(109, 108, 108);
+    background-color: rgb(179, 169, 169);
 }
 #nav_list li{
-    background-color:  rgb(109, 108, 108);
+    background-color: rgb(179, 169, 169);
     padding: 10px;
     text-align: center;
 
@@ -175,12 +175,14 @@ footer {
     text-align: center;
 
 }
-
+#cinemabreak{
+    display: block;
+}
 #home_nav {
     padding-left: 10%;
 }
 
-
+/*
 #genre_block{
     display: grid;
    grid-gap: 20px;
@@ -272,6 +274,13 @@ footer {
     ;
 
 
+}*/
+#genre_block{
+    display: grid;
+    width: 100%;
+    height: 90px;
+    grid-template: 400px 400px 400px / 600px 700px;
+    grid-gap: 20px;
 }
 
 #genre_block p{
@@ -282,6 +291,7 @@ footer {
     font-weight: 800;
    
 }
+/*
 #slasher_photo{
    grid-area: shr;
     background: url("../images/slasheer\ \(1\).webp") left;
@@ -315,6 +325,7 @@ grid-area: shi;
 #body_info{
     grid-area: boi;
 }
+    */
 /* LIT HORROR PAGE*/
 #lit_nav {
     padding-left: 100px;
@@ -345,7 +356,7 @@ grid-area: shi;
     display: grid;
     width: 100%;
     height: 90px;
-    grid-template: 300px 300px 300px / 400px 1000px;
+    grid-template: 300px 300px 300px / 300px 1000px;
     grid-gap: 20px;
     
 }
@@ -354,10 +365,10 @@ br{
 }
 #lit_content p {
     font-size: larger;
-    ;
+    
 }
 
-
+/*
 #frankenstein_photo {
 
     background: url("../images/frankenstein.jpg") left;
@@ -374,11 +385,13 @@ background-repeat: no-repeat;
     background: url("../images/shinning.jpg") left;
     background-repeat: no-repeat;
 }
-
+*/
 
 
 /* CINEMA PAGE LAYOUT  GRID LAYOUT */
-
+br{
+    display: none;
+}
 #cinema_nav {
     padding-right: 10%;
     border: 10%;
@@ -418,27 +431,7 @@ background-repeat: no-repeat;
 }
 
 
-#halloween_photo {
 
-    background: url("../images/michael_meyers\ \(3\).webp") left;
-background-repeat: no-repeat;
-
-}
-
-#psycho {
-    background: url("../images/psycho.jpg") left;
-background-repeat: no-repeat;
-}
-
-#night_of_the_licing_dead {
-    background: url("../images/night_living_dead.jpg") left;
-    background-repeat: no-repeat;
-}
-
-
-br{
-    display: none;
-}
 
 #mobile_menu{
     display: none;
@@ -525,10 +518,14 @@ br{
     
     #cinema_body {
         display: grid;
-      grid-template-columns: 1fr;
-      align-items: center;
-      justify-items: center;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: 90px;
+        grid-gap: 20px;
     }
+    
+
+    
 }
 
 @media only screen and (max-width: 630px) {
@@ -571,8 +568,8 @@ br{
         font-size: small;
     }
     #lit_content {
-        display: grid;
-        grid-template-columns: 1fr;
+        display:grid; 
+        grid-template-columns: auto;
     }
     #lit_body h2 {
         line-height: 80%;
@@ -619,9 +616,10 @@ br{
     
 #cinema_body {
     display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
-  justify-items: center;
-}
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: 90px;
+        grid-gap: 20px;
 }
 
+}

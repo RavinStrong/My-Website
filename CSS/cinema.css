@@ -20,7 +20,7 @@ body {
     list-style-type: none;
     overflow: hidden;
     padding: 1em 0;
-    background-color: rgb(122, 5, 5);
+    background-color:rgb(179, 169, 169);
     font-family: Junicode;
     font-size: 40px;
     text-align: center;
@@ -102,145 +102,62 @@ footer {
 
 
 
-
-
-/*ANCIENT HORROR PAGE*/
-#nav_list ul{
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    background-color:rgb(179, 169, 169);
-}
-#nav_list ol{
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    background-color:rgb(179, 169, 169);
-}
-#nav_list li{
-    background-color: rgb(179, 169, 169);
-    padding: 10px;
-    text-align: center;
-
-}
-#nav_list a{
-    text-decoration: none;
-    color: rgb(122, 5, 5);
-    font-size: 30px;
-    font-family: junicode;
-     font-weight: 800;
-}
-
-
-#ancient_nav {
-    padding-left: 100px;
-    padding-right: 0%;
-    float: left;
+/* CINEMA PAGE LAYOUT  GRID LAYOUT */
+#cinema_nav {
+    padding-right: 10%;
     border: 10%;
+    float: right
 }
-#ancient_body h1 {
+#cinema_header h1 {
+    width: 100%;
     font-family: another_danger;
+    text-align: center;
+    font-size: 80px;
     color: rgb(122, 5, 5);
-    font-size: 90px;
-    text-align: center;
-    font-stretch: extra-expanded;
-    line-height: 60%;
+}
+#cinema_body {
+    display: grid;
+    width: 100%;
+    height: 90px;
+    grid-template: repeat(3, 400px) / 50px 1000px;
+    grid-gap: 20px;
 }
 
-#ancient_body p {
+#cinema_body p {
     color: rgb(35, 4, 4);
     font-family: Junicode;
     font-size: 20px;
-    font-style: bold;
+    line-height: 100%;
     font-weight: 800;
 }
-#ancient_body {
-    background-color: rgb(109, 108, 108);
-    color: rgb(35, 4, 4);;
-}
-
-
-article {
-    column-count: 3;
-    column-gap: 35px;
-    column-rule: 2px solid black;
-    column-width: 100%;
-    background-color:  rgb(109, 108, 108);
-    height: fit-content;
-}
-
-section#ancient_genre {
+#intro_cinema{
     color: rgb(35, 4, 4);
     font-family: Junicode;
     font-size: 20px;
-
-    text-align: left;
-    width: 40%;
-    float: left;
-    line-height: 40%;
+    line-height: 100%;
     font-weight: 800;
-    border: ridge;
-    border-width: 1%;
-    border-color: rgb(35, 7, 7);
-    margin-top: 5%;
-    margin-bottom: 10%;
-}
-
-#header_p{
     text-align: center;
 }
-#ancient_sidebar p {
-    width: max-content;
-}
-#ancient_body{
-    display: flex;
-    flex-direction: column;
-    }
 
-    #ancient_sidebar{
-        min-height: 600px;
-    }
-#genre_footer{
-    flex-basis: 40%;
-    max-height: 100px;
-    min-height: 100px;
-}
-#acnient_br1{
-display: block;
 
-}
-#ancient_br2{
-display: block;
-}
-#ancient_br3{
-display: block;
-}
+
 
 /* MEDIA QUERY*/
 
 
 @media only screen and (max-width: 1200px) {
-    #header {
-        font-size: 50px;
-    }
-
-    #header_container h2 {
-
-        font-size: 20px;
-        text-align: center;
-    }
-
-    /* #nav_list ul{
+   
+    #nav_list {
             display: none;
         }
         #mobile_menu{
             display: block;
         }
-        .slick_menu{
+        .slicknav_menu{
             background-color:#800 !important;
-        } */
+        } 
 
-    
+ 
     #nav_list ul{
         display: flex;
         flex-direction: column;
@@ -268,46 +185,36 @@ display: block;
         font-family: junicode;
          font-weight: 800;
     }
-    article h2{
-        font-size: 30px;
-        line-height: 80%;
-    }
-    article p{
-    font-size: 20px;
-    }
+  
     br{
         display: block;
     }
-    h1{
-    font-size: 20px;
+    
+    #cinema_body {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: 90px;
+        grid-gap: 20px;
     }
+    
 }
 
 @media only screen and (max-width: 630px) {
 
-
-    #header {
-        font-size: 30px;
-    }
-
-    #header_container h2 {
-
-        font-size: 10px;
-    }
-
-    #horror_genre a {
-        font-size: 13px;
-    }
-
-    /*#nav_lis ul{ 
+    #nav_list { 
     display: none;
-}
-#mobilr_menu{
+   }
+   #mobilr_menu{
     display: block;
-}
-.slick_menu{
-    background-color:#800 !important;
-} */
+   }
+   .slicknav_menu{
+    background-color:rgb(210, 42, 42) !important;
+   }  
+  
+    #para_1para_2para_3 {
+        font-size: small;
+    }
   
 
     #nav_list ul{
@@ -323,31 +230,31 @@ display: block;
         justify-content: space-between;
         list-style-type: none;
         background-color: rgb(109, 108, 108);
-    }
-    #nav_list li{
+      }
+      #nav_list li{
         background-color:  rgb(109, 108, 108);
         padding: 10px;
         text-align: center;
     
-    }
-    br{
+      }
+      br{
         display: block;
-    }
-    #nav_list a{
+     }
+      #nav_list a{
         text-decoration: none;
         color: rgb(122, 5, 5);
         font-size: 20px;
         font-family: junicode;
          font-weight: 800;
-    }
-    article h2{
-        font-size: 30px;
-        line-height: 80%;
-    }
-    article p{
-    font-size: 20px;
-    }
-    h1{
-        font-size: 20px;
-        }
+     }
+  
+    
+      #cinema_body {
+         display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: 90px;
+        grid-gap: 20px;
+     }
+
 }
