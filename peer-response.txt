@@ -1,5 +1,0 @@
-2. Responsive Design: Improve the website's responsiveness on mobile devices; some text and images are not well-aligned on smaller screens.
-I was able to fixa  lot of the issues with my code being unorganized by making sure the size of images were consitent etc. 
-I do have some issues that seems to appear on screens larger than mine. Ive had the peer revies say there are some issues that i cannot see i believe its because im working on a laptop with a  smaller screen Ive tried to implemetn some changes but im not fully sure they work. 
-. Visual Appeal: Enhance the visual design with a more user friendly backround color as it is hard too see the site and it's content clearly.
-I changes the bakcground color to a  much lighter gray, giving more contrast. 
