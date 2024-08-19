@@ -12,20 +12,7 @@
 
 /* UNIVERSAL AFFECTS EVERY PAGE */
 body {
-    background-color: rgb(179, 169, 169);
-}
-
-#nav_list ul {
-    list-style-type: none;
-    overflow: hidden;
-    padding: 1em 0;
-    background-color: rgb(122, 5, 5);
-    font-family: Junicode;
-    font-size: 40px;
-    text-align: center;
-    display: inline;
-    padding: 0%;
-    width: 100%
+    background-color: rgb(146, 146, 146);
 }
 
 #nav_list a:link {
@@ -52,8 +39,7 @@ body {
     text-align: center;
 }
 
-h2,
-h3 {
+h2 {
     color: rgb(122, 5, 5);
     font-family: Junicode;
     font-size: 40px;
@@ -90,40 +76,32 @@ footer {
     clear: both;
 }
 
-#nav_list ul {
-    list-style: none;
-
-}
-
 #nav_list ol {
     list-style: none;
 }
 
 /* FLEX BOX 1 NAV LIST*/
-#nav_list ul{
+
+#nav_list ol {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    background-color:rgb(179, 169, 169);
+    background-color: rgb(146, 146, 146);
 }
-#nav_list ol{
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    background-color: rgb(179, 169, 169);
-}
-#nav_list li{
-    background-color: rgb(179, 169, 169);
+
+#nav_list li {
+    background-color: rgb(146, 146, 146);
     padding: 10px;
     text-align: center;
 
 }
-#nav_list a{
+
+#nav_list a {
     text-decoration: none;
     color: rgb(122, 5, 5);
     font-size: 30px;
     font-family: junicode;
-     font-weight: 800;
+    font-weight: 800;
 }
 
 /* HOME PAGE */
@@ -162,11 +140,13 @@ footer {
     text-align: center;
     line-height: 50%;
 }
-#horror_genre h2{
+
+#horror_genre h2 {
     text-align: center;
     font-size: 40px;
 }
-#horror_genre p{
+
+#horror_genre p {
     color: rgb(35, 4, 4);
     font-family: Junicode;
     font-size: 20px;
@@ -175,107 +155,17 @@ footer {
     text-align: center;
 
 }
-#cinemabreak{
+
+#cinemabreak {
     display: block;
 }
+
 #home_nav {
     padding-left: 10%;
 }
 
-/*
-#genre_block{
-    display: grid;
-   grid-gap: 20px;
-    grid-template-areas:
-   
-    'shi shi shr shr'
-    'shi shi shr shr'
-    'shi shi shr shr'
-    'shi shi shr shr'
-    'shi shi shr shr'
-     'shi shi shr shr'
-    'shi shi shr shr'
-    'shi shi shr shr'
-    'shi shi shr shr'
-    'shi shi shr shr'
-    'shi shi shr shr'
-    'shi shi shr shr'
-    'shi shi shr shr'
-    'shi shi shr shr'
-    'shi shi shr shr'
-    'shi shi shr shr'
-    'shi shi shr shr'
-    'shi shi shr shr'
-    'shi shi shr shr'
-    'shi shi shr shr'
-    'shi shi shr shr'
-    'psc psc psi psi'
-    'psc psc psi psi'
-    'psc psc psi psi'
-   'psc psc psi psi'
-   'psc psc psi psi'
-   'psc psc psi psi'
-  'psc psc psi psi'
-  'psc psc psi psi'
- 'psc psc psi psi'
- 'psc psc psi psi'
- 'psc psc psi psi'
- 'psc psc psi psi'
- 'psc psc psi psi'
- 'psc psc psi psi'
- 'psc psc psi psi'
- 'psc psc psi psi'
- 'psc psc psi psi'
- 'psc psc psi psi'
-    'sui sui sup sup'
-    'sui sui sup sup'
-    'sui sui sup sup'
-     'sui sui sup sup'
-     'sui sui sup sup'
-     'sui sui sup sup'
-     'sui sui sup sup'
-     'sui sui sup sup'
-     'sui sui sup sup'
-     'sui sui sup sup'
-     'sui sui sup sup'
-     'sui sui sup sup'
-     'sui sui sup sup'
-     'sui sui sup sup'
-     'sui sui sup sup'
-     'sui sui sup sup'
-     'sui sui sup sup'
-     'sui sui sup sup'
-     'sui sui sup sup'    
-      'sui sui sup sup'
-     'sui sui sup sup'
-     'sui sui sup sup'
-     'bod bod boi boi'
-     'bod  bod boi boi'
-     'bod bod boi boi'
-     'bod bod boi boi'
-      'bod bod boi boi'
-     'bod bod boi boi'
-     'bod bod boi boi'
-     'bod  bod boi boi'
-     'bod bod boi boi'
-     'bod bod boi boi'
-      'bod bod boi boi'
-     'bod bod boi boi'
-     'bod bod boi boi'
-     'bod bod boi boi'
-      'bod bod boi boi'
-     'bod bod boi boi'
-     'bod bod boi boi'
-      'bod  bod boi boi'
-     'bod bod boi boi'
-     'bod bod boi boi'
-      'bod bod boi boi'
-     'bod bod boi boi'
-    ;
 
-
-}*/
-#genre_block{
+#genre_block {
     display: grid;
     width: 100%;
     height: 90px;
@@ -283,157 +173,17 @@ footer {
     grid-gap: 20px;
 }
 
-#genre_block p{
+#genre_block p {
     color: rgb(35, 4, 4);
     font-family: Junicode;
     font-size: 20px;
     font-style: bold;
     font-weight: 800;
-   
-}
-/*
-#slasher_photo{
-   grid-area: shr;
-    background: url("../images/slasheer\ \(1\).webp") left;
-    background-repeat: no-repeat;
-}
-#slasher_info{
-grid-area: shi;
-}
-
-#psychological_photo{
-   grid-area: psc;
-    background: url("../images/get_out.jpg") left;
-    background-repeat: no-repeat;
-}
-#psychological_info{
-    grid-area: psi;
-}
-#supernatural_photo{
-    grid-area: sup;
-    background: url("../images/it\ \(2\).webp") left;
-    background-repeat: no-repeat;
-}
-#supernatural_info{
-    grid-area: sui;
-}
-#body_photo{
-    grid-area: bod;
-    background: url("../images/pinhead_hellraiser\ \(1\).webp") left;
-    background-repeat: no-repeat;
-}
-#body_info{
-    grid-area: boi;
-}
-    */
-/* LIT HORROR PAGE*/
-#lit_nav {
-    padding-left: 100px;
-    padding-right: 0%;
-    float: left;
-    border: 10%;
 
 }
 
-#lit_body h1 {
-    font-family: another_danger;
-    color: rgb(122, 5, 5);
-    font-size: 80px;
-    text-align: center;
-    font-stretch: extra-expanded;
-    line-height: 60%;
-}
 
-#lit_body p {
-    color: rgb(35, 4, 4);
-    font-family: Junicode;
-    font-size: 20px;
-    font-style: bold;
-    font-weight: 800;
-}
-
-#lit_content {
-    display: grid;
-    width: 100%;
-    height: 90px;
-    grid-template: 300px 300px 300px / 300px 1000px;
-    grid-gap: 20px;
-    
-}
-br{
-    display: none;
-}
-#lit_content p {
-    font-size: larger;
-    
-}
-
-/*
-#frankenstein_photo {
-
-    background: url("../images/frankenstein.jpg") left;
-background-repeat: no-repeat;
-
-}
-
-#usher_photo {
-    background: url("../images/edgar.jpg") left;
-background-repeat: no-repeat;
-}
-
-#shinning_photo {
-    background: url("../images/shinning.jpg") left;
-    background-repeat: no-repeat;
-}
-*/
-
-
-/* CINEMA PAGE LAYOUT  GRID LAYOUT */
-br{
-    display: none;
-}
-#cinema_nav {
-    padding-right: 10%;
-    border: 10%;
-    float: right
-}
-
-#cinema_header h1 {
-    width: 100%;
-    font-family: another_danger;
-    text-align: center;
-    font-size: 80px;
-    color: rgb(122, 5, 5);
-}
-
-#cinema_body {
-    display: grid;
-    width: 100%;
-    height: 90px;
-    grid-template: 300px 300px 300px / 400px 1000px;
-    grid-gap: 20px;
-}
-
-#cinema_body p {
-    color: rgb(35, 4, 4);
-    font-family: Junicode;
-    font-size: 20px;
-    line-height: 100%;
-    font-weight: 800;
-}
-#intro_cinema{
-    color: rgb(35, 4, 4);
-    font-family: Junicode;
-    font-size: 20px;
-    line-height: 100%;
-    font-weight: 800;
-    text-align: center;
-}
-
-
-
-
-#mobile_menu{
+#mobile_menu {
     display: none;
 }
 
@@ -451,18 +201,7 @@ br{
         text-align: center;
     }
 
-    #nav_list {
-            display: none;
-        }
-        #mobile_menu{
-            display: block;
-        }
-        .slicknav_menu{
-            background-color:#800 !important;
-        } 
-
- 
-      #genre_block {
+    #genre_block {
         display: grid;
         grid-template-columns: 1fr;
         width: 100%;
@@ -470,62 +209,46 @@ br{
         grid-gap: 20px;
     }
 
-    #lit_content {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    #lit_body h2 {
-        line-height: 80%;
-        font-size: 30px;
-        align-content: center;
-        word-break: break-all;
-    
-    }
-    #nav_list ul{
+    #nav_list ol {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         list-style-type: none;
-        background-color: rgb(109, 108, 108);
+        background-color: rgb(146, 146, 146);
     }
-    #nav_list ol{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        list-style-type: none;
-        background-color: rgb(109, 108, 108);
-    }
-    #nav_list li{
-        background-color:  rgb(109, 108, 108);
+
+    #nav_list li {
+        background-color: rgb(146, 146, 146);
         padding: 10px;
         text-align: center;
-    
+
     }
-    #nav_list a{
+
+    img {
+        margin-left: 25%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    #nav_list a {
         text-decoration: none;
         color: rgb(122, 5, 5);
         font-size: 20px;
         font-family: junicode;
-         font-weight: 800;
+        font-weight: 800;
     }
-    #genre_page_body h2{
-        font-size:20px;
+
+    #genre_page_body h2 {
+        font-size: 20px;
         line-height: 70%;
     }
-    br{
+
+    br {
         display: block;
     }
-    
-    #cinema_body {
-        display: grid;
-        grid-template-columns: 1fr;
-        width: 100%;
-        height: 90px;
-        grid-gap: 20px;
-    }
-    
 
-    
 }
 
 @media only screen and (max-width: 630px) {
@@ -544,16 +267,6 @@ br{
         font-size: 13px;
     }
 
-    #nav_list { 
-    display: none;
-}
-#mobilr_menu{
-    display: block;
-}
-.slicknav_menu{
-    background-color:rgb(210, 42, 42) !important;
-} 
-  
     #genre_block {
         display: grid;
         grid-template-areas: none;
@@ -563,63 +276,42 @@ br{
         grid-gap: 20px;
     }
 
-
-    #para_1para_2para_3 {
-        font-size: small;
-    }
-    #lit_content {
-        display:grid; 
-        grid-template-columns: auto;
-    }
-    #lit_body h2 {
-        line-height: 80%;
-        font-size: 30px;
-        align-content: center;
-        word-break: break-all;
-    
+    img {
+        margin-left: 0%;
     }
 
-    #nav_list ul{
+    #nav_list ol {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         list-style-type: none;
-        background-color: rgb(109, 108, 108);
+        background-color: rgb(146, 146, 146);
     }
-    #nav_list ol{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        list-style-type: none;
-        background-color: rgb(109, 108, 108);
-    }
-    #nav_list li{
-        background-color:  rgb(109, 108, 108);
+
+    #nav_list li {
+        background-color: rgb(146, 146, 146);
         padding: 10px;
         text-align: center;
-    
+
     }
-    br{
+
+    br {
         display: block;
     }
-    #nav_list a{
+
+    #nav_list a {
         text-decoration: none;
         color: rgb(122, 5, 5);
         font-size: 20px;
         font-family: junicode;
-         font-weight: 800;
+        font-weight: 800;
     }
-    #genre_page_body h2{
-        font-size:20px;
+
+    #genre_page_body h2 {
+        font-size: 20px;
         line-height: 70%;
     }
-    
-#cinema_body {
-    display: grid;
-        grid-template-columns: 1fr;
-        width: 100%;
-        height: 90px;
-        grid-gap: 20px;
-}
+
+
 
 }

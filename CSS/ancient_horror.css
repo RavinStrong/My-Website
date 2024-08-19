@@ -1,4 +1,3 @@
-
 /* IMPORTED FONTS*/
 @font-face {
     font-family: another_danger;
@@ -13,7 +12,7 @@
 
 /* UNIVERSAL AFFECTS EVERY PAGE */
 body {
-    background-color: rgb(179, 169, 169);
+    background-color: rgb(146, 146, 146);
 }
 
 #nav_list ul {
@@ -53,13 +52,12 @@ body {
     text-align: center;
 }
 
-h2,
-h3 {
+h2{
     color: rgb(122, 5, 5);
     font-family: Junicode;
     font-size: 30px;
     text-align: left;
-    line-height: 30%;
+    line-height: 80%;
     font-weight: 800;
     margin-top: 5%;
 }
@@ -105,30 +103,33 @@ footer {
 
 
 /*ANCIENT HORROR PAGE*/
-#nav_list ul{
+#nav_list ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    background-color:rgb(179, 169, 169);
+    background-color: rgb(146, 146, 146);
 }
-#nav_list ol{
+
+#nav_list ol {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    background-color:rgb(179, 169, 169);
+    background-color: rgb(146, 146, 146);
 }
-#nav_list li{
-    background-color: rgb(179, 169, 169);
+
+#nav_list li {
+    background-color: rgb(146, 146, 146);
     padding: 10px;
     text-align: center;
 
 }
-#nav_list a{
+
+#nav_list a {
     text-decoration: none;
     color: rgb(122, 5, 5);
     font-size: 30px;
     font-family: junicode;
-     font-weight: 800;
+    font-weight: 800;
 }
 
 
@@ -138,6 +139,7 @@ footer {
     float: left;
     border: 10%;
 }
+
 #ancient_body h1 {
     font-family: another_danger;
     color: rgb(122, 5, 5);
@@ -154,9 +156,11 @@ footer {
     font-style: bold;
     font-weight: 800;
 }
+
 #ancient_body {
-    background-color: rgb(109, 108, 108);
-    color: rgb(35, 4, 4);;
+    background-color: rgb(146, 146, 146);
+    color: rgb(35, 4, 4);
+    ;
 }
 
 
@@ -165,7 +169,7 @@ article {
     column-gap: 35px;
     column-rule: 2px solid black;
     column-width: 100%;
-    background-color:  rgb(109, 108, 108);
+    background-color: rgb(146, 146, 146);
     height: fit-content;
 }
 
@@ -186,168 +190,131 @@ section#ancient_genre {
     margin-bottom: 10%;
 }
 
-#header_p{
+#header_p {
     text-align: center;
 }
+
 #ancient_sidebar p {
     width: max-content;
 }
-#ancient_body{
+
+#ancient_body {
     display: flex;
     flex-direction: column;
-    }
+}
 
-    #ancient_sidebar{
-        min-height: 600px;
-    }
-#genre_footer{
+#ancient_sidebar {
+    min-height: 600px;
+}
+
+#genre_footer {
     flex-basis: 40%;
     max-height: 100px;
     min-height: 100px;
 }
-#acnient_br1{
-display: block;
+
+#acnient_br1 {
+    display: block;
 
 }
-#ancient_br2{
-display: block;
+
+#ancient_br2 {
+    display: block;
 }
-#ancient_br3{
-display: block;
+
+#ancient_br3 {
+    display: block;
 }
 
 /* MEDIA QUERY*/
 
 
 @media only screen and (max-width: 1200px) {
-    #header {
-        font-size: 50px;
-    }
 
-    #header_container h2 {
-
-        font-size: 20px;
-        text-align: center;
-    }
-
-    /* #nav_list ul{
-            display: none;
-        }
-        #mobile_menu{
-            display: block;
-        }
-        .slick_menu{
-            background-color:#800 !important;
-        } */
-
-    
-    #nav_list ul{
+    #nav_list ol {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         list-style-type: none;
-        background-color: rgb(109, 108, 108);
+        background-color:  rgb(146, 146, 146);
     }
-    #nav_list ol{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        list-style-type: none;
-        background-color: rgb(109, 108, 108);
-    }
-    #nav_list li{
-        background-color:  rgb(109, 108, 108);
+
+    #nav_list li {
+        background-color:  rgb(146, 146, 146);
         padding: 10px;
         text-align: center;
-    
+
     }
-    #nav_list a{
+
+    #nav_list a {
         text-decoration: none;
         color: rgb(122, 5, 5);
         font-size: 20px;
         font-family: junicode;
-         font-weight: 800;
+        font-weight: 800;
     }
-    article h2{
+
+    article h2 {
         font-size: 30px;
         line-height: 80%;
     }
-    article p{
-    font-size: 20px;
+
+    article p {
+        font-size: 20px;
     }
-    br{
+
+    br {
         display: block;
     }
-    h1{
-    font-size: 20px;
+
+    h1 {
+        font-size: 20px;
+        line-height: 100%;
     }
 }
 
 @media only screen and (max-width: 630px) {
 
-
-    #header {
-        font-size: 30px;
-    }
-
-    #header_container h2 {
-
-        font-size: 10px;
-    }
-
-    #horror_genre a {
-        font-size: 13px;
-    }
-
-    /*#nav_lis ul{ 
-    display: none;
-}
-#mobilr_menu{
-    display: block;
-}
-.slick_menu{
-    background-color:#800 !important;
-} */
-  
-
-    #nav_list ul{
+    #nav_list ol {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         list-style-type: none;
-        background-color: rgb(109, 108, 108);
+        background-color: rgb(146, 146, 146);
     }
-    #nav_list ol{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        list-style-type: none;
-        background-color: rgb(109, 108, 108);
-    }
-    #nav_list li{
-        background-color:  rgb(109, 108, 108);
+
+    #nav_list li {
+        background-color:  rgb(146, 146, 146);
         padding: 10px;
         text-align: center;
-    
+
     }
-    br{
+
+    br {
         display: block;
     }
-    #nav_list a{
+
+    #nav_list a {
         text-decoration: none;
         color: rgb(122, 5, 5);
         font-size: 20px;
         font-family: junicode;
-         font-weight: 800;
+        font-weight: 800;
     }
-    article h2{
+
+    article h2 {
         font-size: 30px;
         line-height: 80%;
     }
-    article p{
-    font-size: 20px;
-    }
-    h1{
+
+    article p {
         font-size: 20px;
-        }
+    }
+h2{
+    line-height: 100%;
+}
+    h1 {
+        font-size: 20px;
+        line-height: 200%;
+    }
 }
