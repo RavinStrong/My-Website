@@ -14,6 +14,9 @@
 body {
     background-color: rgb(146, 146, 146);
 }
+h1{
+    font-size: 50px;
+}
 
 #nav_list a:link {
     font-weight: bold;
@@ -75,12 +78,6 @@ footer {
 }
 
 /* FLEX BOX 1 NAV LIST*/
-#nav_list ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    background-color: rgb(146, 146, 146);
-}
 
 #nav_list ol {
     display: flex;
