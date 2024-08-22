@@ -11,108 +11,13 @@
 
 
 /* UNIVERSAL AFFECTS EVERY PAGE */
-body {
-    background-color: rgb(146, 146, 146);
-}
-h1{
-    font-size: 50px;
-}
 
-#nav_list a:link {
-    font-weight: bold;
-    font-size: 30px;
-    color: rgb(122, 5, 5);
-    text-decoration: none;
-    text-align: center;
-}
-
-#nav_list a:visited {
-    font-weight: bold;
-    font-size: 30px;
-    color: rgb(122, 5, 5);
-    text-decoration: none;
-    text-align: center;
-}
-
-#nav_list a {
-    float: left;
-    display: block;
-    padding: .5em 0 .5em 1.5em;
-    font-weight: bold;
-    text-align: center;
-}
-
-h2 {
-    color: rgb(122, 5, 5);
-    font-family: Junicode;
-    font-size: 40px;
-    text-align: left;
-    line-height: 30%;
-    font-weight: 800;
-    margin-top: 5%;
-}
-
-body {
-    width: 90%;
-    max-width: 100%;
-}
-
-header {
-    width: 96.87%;
-    padding: 15px 1.5625%;
-}
-
-footer {
-    width: 96.875%;
-    padding: 15px 1.5625%;
-}
-
-
-
-#mobile_menu {
-    display: none;
-}
-
-#nav_list ol {
-    list-style: none;
-}
-
-/* FLEX BOX 1 NAV LIST*/
-
-#nav_list ol {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    background-color: rgb(146, 146, 146);
-}
-
-#nav_list li {
-    background-color: rgb(146, 146, 146);
-    padding: 10px;
-    text-align: center;
-
-}
-
-#nav_list a {
-    text-decoration: none;
-    color: rgb(122, 5, 5);
-    font-size: 80px;
-    font-family: junicode;
-    font-weight: 800;
-}
-
-/* CINEMA PAGE LAYOUT  GRID LAYOUT */
-#cinema_nav {
-    padding-right: 10%;
-    border: 10%;
-    float: right
-}
 
 #cinema_body h1 {
     width: 100%;
     font-family: another_danger;
     text-align: center;
-    font-size: 80px;
+   
     color: rgb(122, 5, 5);
 }
 
@@ -120,7 +25,8 @@ footer {
     display: grid;
     width: 100%;
     height: 90px;
-    grid-template: 400px 400px 400px / 600px 700px;
+    grid-template: 400px 400px 400px /600px 700px;
+    grid-template-rows:auto;
     grid-gap: 20px;
     
 }
@@ -132,8 +38,7 @@ footer {
     line-height: 93%;
     font-weight: 800;
 }
-
-#intro_cinema {
+#intro{
     color: rgb(35, 4, 4);
     font-family: Junicode;
     font-size: 20px;
@@ -142,105 +47,104 @@ footer {
     text-align: center;
 }
 
+
 /* MEDIA QUERY*/
+@media only screen and (max-width: 1400px) {
+    img{
+        margin-left: 35%;
+    
+    }
+
+#halloween_title{
+    margin-left: 43%;
+}
+#night_title{
+    margin-left: 34%;
+}
+#psycho_title{
+margin-left: 45%;
+}
+    #cinema_content {
+        display: grid;
+        grid-template-columns: 1fr;
+grid-template-rows: auto;
+        line-height: 200%;
+        font-size: 30px;
+        display: block;
+       
+        width: 100%;
+        word-break: normal;
+
+    }
+
+}
 
 @media only screen and (max-width: 1200px) {
-
-    #nav_list ol {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        list-style-type: none;
-        background-color: rgb(146, 146, 146);
-    }
-
-    #nav_list li {
-        background-color: rgb(146, 146, 146);
-        padding: 10px;
-        text-align: center;
-
-    }
-
     img{
         margin-left: 30%;
-    }
-
-    #nav_list a {
-        text-decoration: none;
-        color: rgb(122, 5, 5);
-        font-size: 20px;
-        font-family: junicode;
-        font-weight: 800;
+    
     }
 
     br {
         display: block;
     }
-h2{
-    text-align: center;
+#halloween_title{
+    margin-left: 40%;
 }
-    #cinema_content {
-        display: grid;
-        grid-template-columns: 1fr;
-        line-height: 200%;
-        font-size: 30px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        word-break: normal;
-
+#night_title{
+    margin-left: 30%;
+}
+#psycho_title{
+margin-left: 43%;
+}
+   
+}
+@media only screen and (max-width: 725px){
+    img{
+        margin-left: 18%;
+    
     }
+
+#halloween_title{
+    margin-left: 35%;
+}
+#night_title{
+    margin-left: 18%;
+}
+#psycho_title{
+margin-left: 37%;
+}
 
 }
 
 @media only screen and (max-width: 630px) {
 
-    #nav_list ol {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        list-style-type: none;
-        background-color: rgb(109, 108, 108);
-    }
-
-    #nav_list li {
-        background-color: rgb(109, 108, 108);
-        padding: 10px;
-        text-align: center;
-
-    }
-
     img{
-        margin-left: 0%;
-    }
-    h2{
-        line-height: 80%;
-    }
-    br {
-        display: block;
-    }
-
-    #nav_list a {
-        text-decoration: none;
-        color: rgb(122, 5, 5);
-        font-size: 20px;
-        font-family: junicode;
-        font-weight: 800;
+        margin-left: 15%;
     }
 
 
     #cinema_content {
         display: grid;
-        grid-template-columns: 1fr;
         line-height: 80%;
         font-size: 30px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        word-break: normal;
+       
 
     }
 
+}
+@media only screen and (max-width: 530px) {
+    img{
+        margin-left: 0%;
+    }
+    #halloween_title{
+        margin-left: 30%;
+    }
+    #night_title{
+        margin-left: 0%;
+    }
+    #psycho_title{
+    margin-left: 35%;
+    }
+  
 }

@@ -10,136 +10,7 @@
 }
 
 
-/* UNIVERSAL AFFECTS EVERY PAGE */
-body {
-    background-color: rgb(146, 146, 146);
-}
 
-#nav_list a:link {
-    font-weight: bold;
-    font-size: 35px;
-    color: rgb(122, 5, 5);
-    text-decoration: none;
-    text-align: center;
-}
-
-#nav_list a:visited {
-    font-weight: bold;
-    font-size: 35px;
-    color: rgb(122, 5, 5);
-    text-decoration: none;
-    text-align: center;
-}
-
-#nav_list a {
-    float: left;
-    display: block;
-    padding: .5em 0 .5em 1.5em;
-    font-weight: bold;
-    text-align: center;
-}
-
-h2 {
-    color: rgb(122, 5, 5);
-    font-family: Junicode;
-    font-size: 40px;
-    text-align: left;
-    line-height: 30%;
-    font-weight: 800;
-    margin-top: 5%;
-}
-
-body {
-    width: 90%;
-    max-width: 100%;
-}
-
-header {
-    width: 96.87%;
-    padding: 15px 1.5625%;
-}
-
-footer {
-    width: 96.875%;
-    padding: 15px 1.5625%;
-}
-
-br {
-    clear: both;
-}
-
-#mobile_menu {
-    display: none;
-}
-
-footer {
-    clear: both;
-}
-
-#nav_list ol {
-    list-style: none;
-}
-
-/* FLEX BOX 1 NAV LIST*/
-
-#nav_list ol {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    background-color: rgb(146, 146, 146);
-}
-
-#nav_list li {
-    background-color: rgb(146, 146, 146);
-    padding: 10px;
-    text-align: center;
-
-}
-
-#nav_list a {
-    text-decoration: none;
-    color: rgb(122, 5, 5);
-    font-size: 80px;
-    font-family: junicode;
-    font-weight: 800;
-}
-
-/* HOME PAGE */
-#header_container {
-    font-family: another_danger;
-    color: rgb(122, 5, 5);
-    font-size: 60px;
-    text-align: center;
-    font-stretch: extra-expanded;
-    line-height: 60%;
-    background: url("../images/grayforest.jpg") left;
-    border: 1em, 0em, 0em, 0em;
-    background-repeat: no-repeat;
-    background-size: 100%;
-
-    padding-bottom: 5%;
-    padding-top: 0%;
-    margin-top: 0%;
-
-
-}
-
-#header_container {
-    display: flex;
-    flex-direction: column;
-}
-
-#header_container {
-    background: 100;
-}
-
-#first_text {
-    font-family: junicode;
-    color: rgb(122, 5, 5);
-    font-size: 30px;
-    text-align: center;
-    line-height: 50%;
-}
 
 #horror_genre h2 {
     text-align: center;
@@ -154,14 +25,6 @@ footer {
     font-weight: 800;
     text-align: center;
 
-}
-
-#cinemabreak {
-    display: block;
-}
-
-#home_nav {
-    padding-left: 10%;
 }
 
 
@@ -183,61 +46,46 @@ footer {
 }
 
 
-#mobile_menu {
-    display: none;
-}
+
 
 /* MEDIA QUERY*/
 
 
 @media only screen and (max-width: 1200px) {
+    #p{
+        text-align: center;
+    }
     #header {
         font-size: 50px;
     }
 
-    #header_container h2 {
-
-        font-size: 20px;
-        text-align: center;
+    #slasher_title{
+        margin-left: 45%;
     }
-
+    #psych_title{
+        margin-left: 40%;
+    }
+    #super_title{
+        margin-left: 40%;
+    }
+#body_title{
+    margin-left: 40%;
+}
     #genre_block {
         display: grid;
         grid-template-columns: 1fr;
+        grid-template-rows: auto;
         width: 100%;
         height: 90px;
         grid-gap: 20px;
     }
 
-    #nav_list ol {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        list-style-type: none;
-        background-color: rgb(146, 146, 146);
-    }
-
-    #nav_list li {
-        background-color: rgb(146, 146, 146);
-        padding: 10px;
-        text-align: center;
-
-    }
-
     img {
-        margin-left: 25%;
+        margin-left: 27%;
     }
 
     h2 {
         text-align: center;
-    }
-
-    #nav_list a {
-        text-decoration: none;
-        color: rgb(122, 5, 5);
-        font-size: 20px;
-        font-family: junicode;
-        font-weight: 800;
     }
 
     #genre_page_body h2 {
@@ -250,18 +98,34 @@ footer {
     }
 
 }
-
-@media only screen and (max-width: 630px) {
-
-
-    #header {
-        font-size: 30px;
+@media only screen and (max-width: 830px) {
+    img {
+        margin-left: 20%;
     }
 
-    #header_container h2 {
+}
 
-        font-size: 10px;
+@media only screen and (max-width: 700px) {
+    img{
+        margin-left: 0%;
+       
     }
+
+    #slasher_title{
+        margin-left: 30%;
+       
+    }
+    #psych_title{
+        margin-left: 20%;
+    }
+    #super_title{
+        margin-left: 20%;
+    }
+#body_title{
+    margin-left: 20%;
+}
+}
+@media only screen and (max-width: 600px) {
 
     #horror_genre a {
         font-size: 13px;
@@ -269,49 +133,28 @@ footer {
 
     #genre_block {
         display: grid;
-        grid-template-areas: none;
-        grid-template-columns: 1fr;
-        width: 100%;
-        height: 90px;
-        grid-gap: 20px;
+          max-width: 430px;
     }
 
     img {
         margin-left: 0%;
     }
 
-    #nav_list ol {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        list-style-type: none;
-        background-color: rgb(146, 146, 146);
-    }
-
-    #nav_list li {
-        background-color: rgb(146, 146, 146);
-        padding: 10px;
-        text-align: center;
-
-    }
 
     br {
         display: block;
     }
 
-    #nav_list a {
-        text-decoration: none;
-        color: rgb(122, 5, 5);
-        font-size: 20px;
-        font-family: junicode;
-        font-weight: 800;
-    }
-
+  
     #genre_page_body h2 {
         font-size: 20px;
         line-height: 70%;
     }
 
-
-
 }
+@media only screen and (max-width: 530px) {
+img{
+    width: 100%;
+}
+}
+    

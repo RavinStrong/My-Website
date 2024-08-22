@@ -1,0 +1,273 @@
+/* IMPORTED FONTS*/
+@font-face {
+    font-family: another_danger;
+    src: url("../font/another_danger_slanted.otf");
+}
+
+@font-face {
+    font-family: junicode;
+    src: url("../font/junicode.ttf");
+}
+@font-face {
+    font-family: bloody;
+    src: url(../font/PaintDropsRegular-0WaJo.ttf);
+}
+
+body{
+    background-color: rgb(146, 146, 146);
+}
+
+h2 {
+    color: rgb(122, 5, 5);
+    font-family: Junicode;
+    font-size: 40px;
+    text-align: left;
+    line-height: 30%;
+    font-weight: 800;
+    margin-top: 5%;
+}
+
+br {
+    clear: both;
+}
+
+
+#first_text {
+    font-family: junicode;
+    color: rgb(122, 5, 5);
+    font-size: 30px;
+    text-align: center;
+    line-height: 50%;
+}
+#intro{
+    color: rgb(35, 4, 4);
+    font-family: Junicode;
+    font-size: 20px;
+    line-height: 100%;
+    font-weight: 800;
+    text-align: center;
+}
+#header_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+#header_container {
+    font-family: another_danger;
+    color: rgb(122, 5, 5);
+    font-size: 60px;
+    text-align: center;
+    font-stretch: extra-expanded;
+    line-height: 60%;
+    background: url("../images/grayforest.jpg") left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    margin-top: 0%;
+
+
+}
+
+#nav_list a:link {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(122, 5, 5);
+    text-decoration: none;
+    text-align: center;
+}
+
+#nav_list a:visited {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(122, 5, 5);
+    text-decoration: none;
+    text-align: center;
+}
+
+#nav_list a {
+    float: left;
+    display: block;
+    padding: .5em 0 .5em 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#nav_list ol {
+    list-style: none;
+}
+
+
+#nav_list ol {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: rgb(146, 146, 146);
+}
+
+#nav_list li {
+    background-color: rgb(146, 146, 146);
+    padding: 10px;
+    text-align: center;
+
+}
+
+#nav_list a {
+    text-decoration: none;
+    color: rgb(122, 5, 5);
+    font-size: 80px;
+    font-family: junicode;
+    font-weight: 800;
+}
+
+#nav_list ol :hover{
+ font-size: 180%;
+ font-family: bloody;
+   
+}
+
+@media only screen and (max-width: 1200px) {
+
+    #nav_list ol {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        list-style-type: none;
+        background-color: rgb(146, 146, 146);
+      
+    }
+
+    #nav_list li {
+        background-color: rgb(146, 146, 146);
+        padding: 10px;
+        text-align: center;
+
+    }
+    
+    #nav_list a {
+        text-decoration: none;
+        color: rgb(122, 5, 5);
+        font-size: 20px;
+        font-family: junicode;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    #home_nav{
+        margin-left: 40%;
+    }
+    #ancient_nav{
+        margin-left: 35%;
+    }
+    #lit_nav{
+        margin-left: 34.9%;
+    }
+        #cinema_nav
+        {
+            margin-left:33%;
+        }
+    #header_container h2 {
+
+        font-size: 20px;
+        text-align: center;
+    }
+    h1{
+        font-size: 60px;
+    }
+    
+    #nav_list ol :hover{
+        font-size: 180%;
+        margin-right: 35%;
+    
+      
+}
+}
+@media only screen and (max-width: 830px){
+    #home_nav{
+        margin-left: 35%;
+    }
+    #ancient_nav{
+        margin-left: 27%;
+    }
+    #lit_nav{
+        margin-left: 26.9%;
+    }
+        #cinema_nav
+        {
+            margin-left:25%;
+        }
+        h1{
+            font-size: 40px;
+        }
+        #first_text{
+            font-size: 25px;
+        }
+        #nav_list ol :hover{
+            font-size: 170%;
+            margin-right: 25%;
+          
+           }
+}
+
+@media only screen and (max-width: 630px) {
+
+    #nav_list ol {
+        font-size: 15px;
+    }
+
+  
+
+    #header {
+        font-size: 30px;
+    }
+
+    #header_container h2 {
+
+        font-size: 10px;
+    }
+    h1{
+        font-size: 35px;
+       
+    }
+    #first_text{
+        font-size: 40px;
+    }
+    #nav_list ol :hover{
+        font-size: 160%;
+        margin-right: 15%;
+      
+       }
+}
+@media only screen and (max-width: 530px) {
+
+    #home_nav{
+        margin-left: 25%;
+    }
+    #ancient_nav{
+        margin-left: 15%;
+    }
+    #lit_nav{
+        margin-left: 16.9%;
+    }
+        #cinema_nav
+        {
+            margin-left:15%;
+        }
+       
+}
+@media only screen and (max-width: 500px) {
+
+    #home_nav{
+        margin-left: 18%;
+    }
+    #ancient_nav{
+        margin-left: 8%;
+    }
+    #lit_nav{
+        margin-left: 8.9%;
+    }
+        #cinema_nav
+        {
+            margin-left:5%;
+        } }     
