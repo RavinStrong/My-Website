@@ -1,0 +1,2 @@
+1. One suggestion I had was that the background color was too dark. To fix this I made the gray color a lot lighter to add contrast. 
+2. another suggestion I had was to fix some breaks in my lit and cinema page once you brough the screen down some of the photos would disappear I was able to fix this. by using the grid-template-row: auto. I also utilized breaks 
