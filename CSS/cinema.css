@@ -9,36 +9,28 @@
     src: url("../font/junicode.ttf");
 }
 
-
-/* UNIVERSAL AFFECTS EVERY PAGE */
-
-
-#cinema_body h1 {
-    width: 100%;
-    font-family: another_danger;
-    text-align: center;
-   
-    color: rgb(122, 5, 5);
-}
-
+/*CREATING GRIDS*/
 #cinema_content {
     display: grid;
     width: 100%;
     height: 90px;
     grid-template: 400px 400px 400px /600px 700px;
-    grid-template-rows:auto;
+    grid-template-rows: auto;
     grid-gap: 20px;
-    
+
 }
+
+/* CINEMA PAGE SPECIFIC CHANGES */
 
 #cinema_content p {
     color: rgb(35, 4, 4);
     font-family: Junicode;
     font-size: 20px;
-    line-height: 93%;
+    line-height: 110%;
     font-weight: 800;
 }
-#intro{
+
+#intro {
     color: rgb(35, 4, 4);
     font-family: Junicode;
     font-size: 20px;
@@ -50,28 +42,31 @@
 
 /* MEDIA QUERY*/
 @media only screen and (max-width: 1400px) {
-    img{
+    img {
         margin-left: 35%;
-    
+
     }
 
-#halloween_title{
-    margin-left: 43%;
-}
-#night_title{
-    margin-left: 34%;
-}
-#psycho_title{
-margin-left: 45%;
-}
+    #halloween_title {
+        margin-left: 43%;
+    }
+
+    #night_title {
+        margin-left: 34%;
+    }
+
+    #psycho_title {
+        margin-left: 45%;
+    }
+
     #cinema_content {
         display: grid;
         grid-template-columns: 1fr;
-grid-template-rows: auto;
+        grid-template-rows: auto;
         line-height: 200%;
         font-size: 30px;
         display: block;
-       
+
         width: 100%;
         word-break: normal;
 
@@ -80,46 +75,52 @@ grid-template-rows: auto;
 }
 
 @media only screen and (max-width: 1200px) {
-    img{
+    img {
         margin-left: 30%;
-    
+
     }
 
     br {
         display: block;
     }
-#halloween_title{
-    margin-left: 40%;
-}
-#night_title{
-    margin-left: 30%;
-}
-#psycho_title{
-margin-left: 43%;
-}
-   
-}
-@media only screen and (max-width: 725px){
-    img{
-        margin-left: 18%;
-    
+
+    #halloween_title {
+        margin-left: 40%;
     }
 
-#halloween_title{
-    margin-left: 35%;
+    #night_title {
+        margin-left: 30%;
+    }
+
+    #psycho_title {
+        margin-left: 43%;
+    }
+
 }
-#night_title{
-    margin-left: 18%;
-}
-#psycho_title{
-margin-left: 37%;
-}
+
+@media only screen and (max-width: 725px) {
+    img {
+        margin-left: 18%;
+
+    }
+
+    #halloween_title {
+        margin-left: 35%;
+    }
+
+    #night_title {
+        margin-left: 18%;
+    }
+
+    #psycho_title {
+        margin-left: 37%;
+    }
 
 }
 
 @media only screen and (max-width: 630px) {
 
-    img{
+    img {
         margin-left: 15%;
     }
 
@@ -128,23 +129,25 @@ margin-left: 37%;
         display: grid;
         line-height: 80%;
         font-size: 30px;
-       
-
     }
 
 }
+
 @media only screen and (max-width: 530px) {
-    img{
+    img {
         margin-left: 0%;
     }
-    #halloween_title{
+
+    #halloween_title {
         margin-left: 30%;
     }
-    #night_title{
+
+    #night_title {
         margin-left: 0%;
     }
-    #psycho_title{
-    margin-left: 35%;
+
+    #psycho_title {
+        margin-left: 35%;
     }
-  
+
 }

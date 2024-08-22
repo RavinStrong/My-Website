@@ -10,7 +10,7 @@
 }
 
 
-/* LIT HORROR PAGE*/
+/* LIT HORROR PAGE SPECIFIC*/
 
 #lit_body p {
     color: rgb(35, 4, 4);
@@ -27,7 +27,8 @@
     font-size: 30px;
     align-content: center;
 }
-/*C REATING GRIDS*/
+
+/*CREATING GRIDS*/
 #lit_content {
     display: grid;
     width: 100%;
@@ -40,38 +41,25 @@
 /*MEDIA QUERY*/
 
 @media only screen and (max-width: 1320px) {
+    /* GRID /BODY AND HEADER CHANGES*/
     #header {
         font-size: 50px;
     }
-   
-   
+
+
     #header_container h2 {
 
         font-size: 20px;
         text-align: center;
     }
 
-    img {
-        margin-left: 40%;
-    }
+ 
 
     #lit_content {
         display: grid;
         grid-template-columns: 1fr;
     }
 
-    #frank_title, #usher_title, #shinning_title {
-        line-height: 80%;
-        font-size: 30px;
-        display: inline;
-        width: 50%;
-        word-break:normal;
-    
-    }
-
-
-
-   
     #cinema_body {
         display: grid;
         grid-template-columns: 1fr;
@@ -80,72 +68,93 @@
         height: 90px;
         grid-gap: 20px;
     }
-    #frank_title{
-       margin-left: 35%;
-    }
-    #usher_title{
-      
-        margin-left: 25%;
-      
 
+    /*  IMAGE AND TITLE MARGINS*/
+    img {
+        margin-left: 40%;
     }
 
-#shinning_title{
-margin-left: 37%;
+    #frank_title,
+    #usher_title,
+    #shinning_title {
+        line-height: 80%;
+        font-size: 30px;
+        display: inline;
+        width: 50%;
+        word-break: normal;
+    }
+
+    #frank_title {
+        margin-left: 35%;
+    }
+
+    #usher_title {
+
+        margin-left: 25%
+    }
+
+    #shinning_title {
+        margin-left: 37%;
+    }
 }
-}
+
 @media only screen and (max-width: 1100px) {
-  
-     #usher_title{
-     
-         margin-left: 15%;
-       
-     }
- 
- #shinning_title{
- margin-left: 33%;
- }
+
+    #usher_title {
+        margin-left: 15%;
+    }
+
+    #shinning_title {
+        margin-left: 33%;
+    }
 
 }
+
 @media only screen and (max-width: 920px) {
 
-     #usher_title{
-       
-         margin-left: 5%;
-       
-     }
- 
+    #usher_title {
+        margin-left: 5%;
+    }
+
 }
+
 @media only screen and (max-width: 750px) {
-    #frank_title{
+    #frank_title {
         margin-left: 27%;
-     }
-    #usher_title{
+    }
+
+    #usher_title {
         margin-left: 0%;
     }
 
 }
+
 @media only screen and (max-width: 630px) {
 
     img {
         margin-left: 15%;
     }
-#lit_content{
-    grid-template-rows: auto;
-}
-#frank_title{
-    margin-left: 0%;
- }
-#usher_title{
-    margin-left: 0%;
-}
-#shinning_title{
-    margin-left: 0%;
-}
+
+    #lit_content {
+        grid-template-rows: auto;
+    }
+
+    #frank_title {
+        margin-left: 0%;
+    }
+
+    #usher_title {
+        margin-left: 0%;
+    }
+
+    #shinning_title {
+        margin-left: 0%;
+    }
+
     #lit_body h2 {
-      
+
         width: 100%;
-        
+
 
     }
 

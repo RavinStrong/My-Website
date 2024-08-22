@@ -8,12 +8,14 @@
     font-family: junicode;
     src: url("../font/junicode.ttf");
 }
+
 @font-face {
     font-family: bloody;
     src: url(../font/PaintDropsRegular-0WaJo.ttf);
 }
 
-body{
+/*UNIVERSAL BODY*/
+body {
     background-color: rgb(146, 146, 146);
 }
 
@@ -31,6 +33,7 @@ br {
     clear: both;
 }
 
+/*UNIVERSAL HEADER*/
 
 #first_text {
     font-family: junicode;
@@ -39,7 +42,8 @@ br {
     text-align: center;
     line-height: 50%;
 }
-#intro{
+
+#intro {
     color: rgb(35, 4, 4);
     font-family: Junicode;
     font-size: 20px;
@@ -47,12 +51,14 @@ br {
     font-weight: 800;
     text-align: center;
 }
+
 #header_container {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
 }
+
 #header_container {
     font-family: another_danger;
     color: rgb(122, 5, 5);
@@ -70,6 +76,7 @@ br {
 
 }
 
+/*NAVIGATION MENU*/
 #nav_list a:link {
     font-weight: bold;
     font-size: 30px;
@@ -95,23 +102,14 @@ br {
 }
 
 #nav_list ol {
-    list-style: none;
-}
-
-
-#nav_list ol {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     background-color: rgb(146, 146, 146);
-}
-
-#nav_list li {
-    background-color: rgb(146, 146, 146);
     padding: 10px;
     text-align: center;
-
 }
+
 
 #nav_list a {
     text-decoration: none;
@@ -121,10 +119,10 @@ br {
     font-weight: 800;
 }
 
-#nav_list ol :hover{
- font-size: 180%;
- font-family: bloody;
-   
+#nav_list ol :hover {
+    font-size: 180%;
+    font-family: bloody;
+
 }
 
 @media only screen and (max-width: 1200px) {
@@ -135,7 +133,7 @@ br {
         justify-content: space-between;
         list-style-type: none;
         background-color: rgb(146, 146, 146);
-      
+
     }
 
     #nav_list li {
@@ -144,7 +142,7 @@ br {
         text-align: center;
 
     }
-    
+
     #nav_list a {
         text-decoration: none;
         color: rgb(122, 5, 5);
@@ -154,60 +152,70 @@ br {
         text-align: center;
     }
 
-    #home_nav{
+    #home_nav {
         margin-left: 40%;
     }
-    #ancient_nav{
+
+    #ancient_nav {
         margin-left: 35%;
     }
-    #lit_nav{
+
+    #lit_nav {
         margin-left: 34.9%;
     }
-        #cinema_nav
-        {
-            margin-left:33%;
-        }
+
+    #cinema_nav {
+        margin-left: 33%;
+    }
+
     #header_container h2 {
 
         font-size: 20px;
         text-align: center;
     }
-    h1{
+
+    h1 {
         font-size: 60px;
     }
-    
-    #nav_list ol :hover{
+
+    #nav_list ol :hover {
         font-size: 180%;
         margin-right: 35%;
-    
-      
+
+
+    }
 }
-}
-@media only screen and (max-width: 830px){
-    #home_nav{
+
+@media only screen and (max-width: 830px) {
+    #home_nav {
         margin-left: 35%;
     }
-    #ancient_nav{
+
+    #ancient_nav {
         margin-left: 27%;
     }
-    #lit_nav{
+
+    #lit_nav {
         margin-left: 26.9%;
     }
-        #cinema_nav
-        {
-            margin-left:25%;
-        }
-        h1{
-            font-size: 40px;
-        }
-        #first_text{
-            font-size: 25px;
-        }
-        #nav_list ol :hover{
-            font-size: 170%;
-            margin-right: 25%;
-          
-           }
+
+    #cinema_nav {
+        margin-left: 25%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    #first_text {
+        font-size: 25px;
+    }
+
+    #nav_list ol :hover {
+        font-size: 170%;
+        margin-right: 25%;
+
+    }
 }
 
 @media only screen and (max-width: 630px) {
@@ -216,7 +224,7 @@ br {
         font-size: 15px;
     }
 
-  
+
 
     #header {
         font-size: 30px;
@@ -226,48 +234,58 @@ br {
 
         font-size: 10px;
     }
-    h1{
+
+    h1 {
         font-size: 35px;
-       
+
     }
-    #first_text{
+
+    #first_text {
         font-size: 40px;
     }
-    #nav_list ol :hover{
+
+    #nav_list ol :hover {
         font-size: 160%;
         margin-right: 15%;
-      
-       }
+
+    }
 }
+
 @media only screen and (max-width: 530px) {
 
-    #home_nav{
+    #home_nav {
         margin-left: 25%;
     }
-    #ancient_nav{
+
+    #ancient_nav {
         margin-left: 15%;
     }
-    #lit_nav{
+
+    #lit_nav {
         margin-left: 16.9%;
     }
-        #cinema_nav
-        {
-            margin-left:15%;
-        }
-       
+
+    #cinema_nav {
+        margin-left: 15%;
+    }
+
 }
+
 @media only screen and (max-width: 500px) {
 
-    #home_nav{
+    #home_nav {
         margin-left: 18%;
     }
-    #ancient_nav{
+
+    #ancient_nav {
         margin-left: 8%;
     }
-    #lit_nav{
+
+    #lit_nav {
         margin-left: 8.9%;
     }
-        #cinema_nav
-        {
-            margin-left:5%;
-        } }     
+
+    #cinema_nav {
+        margin-left: 5%;
+    }
+}
